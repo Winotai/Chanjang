@@ -122,11 +122,7 @@ class _FinalListPageState extends State<FinalListPage> {
         itemCount: finales.length,
         itemBuilder: (BuildContext context, int index) {
           var final2 = finales[index];
-          var descriptionstylec = const TextStyle(
-              fontSize: 13.0,
-              color: Colors.black54,
-              overflow: TextOverflow.ellipsis);
-          return Card(
+         return Card(
             child: InkWell(
               onTap: () {
                 _handleClickFinalItem(finales[index]);

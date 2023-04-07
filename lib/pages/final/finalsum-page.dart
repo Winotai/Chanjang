@@ -26,7 +26,7 @@ class _FinalSumPageState extends State<FinalSumPage> {
           child: Padding(
             padding: const EdgeInsets.all(32.0),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Center(
                   child: Column(
@@ -126,7 +126,7 @@ class _FinalSumPageState extends State<FinalSumPage> {
                       const SizedBox(height: 10.0),
                       Text(
                         'Mickey Mouse',
-                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.orange.shade500),
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.blue.shade300),
                       ),
                       const SizedBox(height: 20.0),
                       ClipRRect(
@@ -163,6 +163,150 @@ class _FinalSumPageState extends State<FinalSumPage> {
                       Text(
                         'Pangpond',
                         style: GoogleFonts.itim(fontSize: 20.0,color: Colors.orange.shade500),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/035.jpg'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'The Flintstones',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.orange.shade500),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/036.jpg'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'Mr. Bean',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.pink.shade300),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/037.jpg'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'Winnie the Pooh',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.pink.shade300),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/038.jpg'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'My Little Pony',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.pink.shade300),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/039.jpg'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'We Bare Bears',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.pink.shade300),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/040.jpg'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'Chowder',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.green.shade400),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/041.jpg'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'Sailor Moon',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.green.shade400),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/042.png'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'Scooby-Doo',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.green.shade400),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/043.png'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'Magical Doremi',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.green.shade400),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/044.jfif'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'Strawberry Shortcake',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.yellow.shade700),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 200.0,
+                            child: Image.asset('assets/images/045.jpg'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'Larva',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.yellow.shade700),
+                      ),
+                      const SizedBox(height: 20.0),
+                      ClipRRect(
+                          child: SizedBox(
+                            height: 150.0,
+                            child: Image.asset('assets/images/046.jpg'),
+                          )
+                      ),
+                      const SizedBox(height: 10.0),
+                      Text(
+                        'Care Bears',
+                        style: GoogleFonts.itim(fontSize: 20.0,color: Colors.yellow.shade700),
                       ),
                     ],
                   ),

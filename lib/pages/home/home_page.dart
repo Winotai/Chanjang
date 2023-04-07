@@ -24,8 +24,8 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Colors.teal.shade300,
         title: Text(
-          'Cartoon',
-          style: GoogleFonts.itim(fontSize: 40.0,color: Colors.grey.shade50),
+          'แนะนำ Cartoon',
+          style: GoogleFonts.itim(fontSize: 38.0,color: Colors.grey.shade50),
         ),
         actions: [
           _subPageIndex == 0
@@ -49,14 +49,14 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   ClipRRect(
                       child: SizedBox(
-                        height: 96.0,
-                        child: Image.asset('assets/images/ชินจัง.jpg'),
+                        height: 98.0,
+                        child: Image.asset('assets/images/small.jpg'),
                       )),
                   Padding(
                     padding: const EdgeInsets.only(top: 4.0, bottom: 1.0),
                     child: Text(
-                      'Cartoon',
-                      style: GoogleFonts.mali(fontSize: 28.0,color: Colors.grey.shade50),
+                      'playlist',
+                      style: GoogleFonts.itim(fontSize: 28.0,color: Colors.grey.shade50),
                     ),
                   ),
                 ],
